@@ -1,3 +1,9 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Non-secret config, kept here so deploys don't wipe it.
+# GITHUB_CLIENT_SECRET is set as an encrypted Worker secret (never in this file).
+[vars]
+GITHUB_CLIENT_ID = "Ov23livjvaAWaOF3bQbq"
+ALLOWED_DOMAINS = "taneenemandegar.ir,tanin-website.ahajialimohammadi.workers.dev"
